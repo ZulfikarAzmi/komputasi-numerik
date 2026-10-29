@@ -1,0 +1,11 @@
+Algoritma Metode Bisection
+1. Mulai.
+2. Tentukan fungsi nonlinear \(f(x)\), interval awal \(a\) dan \(b\), toleransi error, serta maksimum iterasi.
+3. Hitung \(f(a)\) dan \(f(b)\).
+4. Periksa apakah \(f(a)\times f(b)<0\). Jika tidak, interval tidak memenuhi syarat.
+5. Hitung titik tengah \(c=(a+b)/2\).
+6. Periksa apakah toleransi terpenuhi. Jika ya, hentikan iterasi.
+7. Jika \(f(a)\times f(c)<0\), tetapkan \(b=c\). Jika tidak, tetapkan \(a=c\).
+8. Ulangi proses sampai toleransi terpenuhi atau iterasi maksimum tercapai.
+9. Tampilkan perkiraan akar persamaan.
+10. Selesai.
