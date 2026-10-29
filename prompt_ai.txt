@@ -1,0 +1,19 @@
+KUMPULAN PROMPT AI — KOMPUTASI NUMERIK
+
+1. Prompt Penyelesaian Sistem Persamaan Linear Tiga Variabel (SPLTV)
+
+Buatkan program Python untuk menyelesaikan Sistem Persamaan Linear Tiga Variabel (SPLTV) menggunakan Google Colab. Gunakan contoh persamaan berikut:
+
+x + y + z = 6
+2x - y + z = 3
+x + 2y - z = 2
+
+Program tidak perlu menggunakan input dari pengguna karena nilai persamaan sudah ditentukan. Gunakan library NumPy untuk menyelesaikan persamaan dengan metode matriks. Bagi program menjadi beberapa cell di Google Colab dan berikan penjelasan singkat pada setiap cell. Program harus menampilkan persamaan, matriks koefisien, matriks hasil, proses penyelesaian, nilai x, y, z, serta pemeriksaan hasil dengan substitusi. Sertakan juga algoritma penyelesaian dalam langkah-langkah yang terurut dan mudah dipahami.
+
+2. Prompt Penyelesaian Persamaan Nonlinear dengan Metode Bisection
+
+Buatkan program Python untuk menyelesaikan persamaan nonlinear menggunakan Metode Bisection di Google Colab. Gunakan contoh persamaan:
+
+f(x) = x^3 - x - 2
+
+Gunakan interval awal a = 1 dan b = 2, toleransi error 0.0001, serta maksimum 100 iterasi. Program tidak perlu menggunakan input dari pengguna. Bagi program menjadi beberapa cell di Google Colab dan berikan penjelasan singkat pada setiap cell. Program harus menampilkan fungsi, interval awal, pemeriksaan syarat metode Bisection, proses iterasi, titik tengah, nilai fungsi, dan hasil perkiraan akar. Pastikan program memeriksa syarat f(a) × f(b) < 0 dan menghentikan iterasi jika toleransi terpenuhi atau maksimum iterasi tercapai. Sertakan juga algoritma penyelesaian dalam langkah-langkah yang terurut dan mudah dipahami.
