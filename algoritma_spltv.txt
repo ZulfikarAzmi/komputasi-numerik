@@ -1,0 +1,14 @@
+## Algoritma Penyelesaian Sistem Persamaan Linear Tiga Variabel (SPLTV)
+
+1. Mulai.
+2. Import library NumPy untuk membantu perhitungan matriks.
+3. Tentukan tiga persamaan linear dengan variabel \\(x\\), \\(y\\), dan \\(z\\).
+4. Bentuk matriks koefisien \\(A\\) dan matriks hasil \\(B\\).
+5. Tampilkan ketiga persamaan yang akan diselesaikan.
+6. Periksa peringkat matriks \\(A\\).
+7. Jika peringkat matriks \\(A = 3\\), hitung nilai \\(x\\), \\(y\\), dan \\(z\\) menggunakan fungsi `np.linalg.solve(A, B)`.
+8. Jika peringkat matriks \\(A < 3\\), tampilkan pesan bahwa sistem tidak memiliki solusi tunggal.
+9. Tampilkan hasil penyelesaian \\(x\\), \\(y\\), dan \\(z\\).
+10. Periksa hasil dengan memasukkan kembali nilai variabel ke dalam ketiga persamaan.
+11. Tampilkan hasil pemeriksaan untuk memastikan persamaan terpenuhi.
+12. Selesai.
